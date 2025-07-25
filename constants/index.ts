@@ -138,11 +138,9 @@ export const AIResponseFormat = `
 export const prepareInstructions = ({
   jobTitle,
   jobDescription,
-  AIResponseFormat,
 }: {
   jobTitle: string;
   jobDescription: string;
-  AIResponseFormat: string;
 }) =>
   `Vous êtes un expert en ATS (système de suivi des candidatures) et en analyse de CV.
     Veuillez analyser et noter ce CV et suggérer comment l'améliorer.
